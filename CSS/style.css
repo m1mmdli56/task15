@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #1B5871;
+}
+
+.container-img {
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #1B5871;
+    color: white;
+}
+
+.advantages {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.advantages h1 {
+    text-align: left;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card,
+.text-card,
+.brand-card {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: start;
+    background: #1B5871;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.card-text {
+    width: 80%;
+    padding: 75px 0 30px 0;
+}
+
+.highlight-card {
+    background: #259eff;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.highlight-card-text {
+    font-size: 20px;
+}
+
+.brand-card small {
+    width: 80%;
+    font-size: 15px;
+    color: #ccc;
+    display: flex;
+    margin-top: 8px;
+}
+
+.image-card small {
+    width: 50%;
+    font-size: 15px;
+    color: #ccc;
+    display: flex;
+    margin-top: 8px;
+    background: #1e4561;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 16px;
+}
+
+.text-card {
+    width: 45%;
+    background: #14354a;
+}
+
+.image-card {
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+.image-card img {
+    width: 50%;
+    /* height: auto; */
+    /* display: flex; */
+    border-radius: 10px;
+}
+
+.logo {
+    padding: 65px 50px;
+    border-radius: 10px;
+    display: flex;
+    gap: 45px;
+    background-color: #26627A;
+}
+
+.grid-logo-text-title {
+    padding: 60px 0 30px 0;
+}
