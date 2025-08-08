@@ -5,6 +5,7 @@
 }
 
 .container {
+    /* width: 100%; */
     margin: 0 auto;
     background-color: #1B5871;
 }
@@ -117,4 +118,30 @@ body {
 
 .grid-logo-text-title {
     padding: 60px 0 30px 0;
+}
+
+.container-boxes {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.container-box {
+    width: calc(100% / 3 - 20px);
+    padding: 10px 20px 20px 20px;
+    border: black 1px solid;
+    border-radius: 10px;
+}
+.container-text-title{
+    padding: 80px 50px;
+    font-size: 50px;
+}
+.container-direction-text-title {
+    padding: 10px 0 20px 0;
+}
+.container-direction-text-title1 {
+padding: 5px 0 20px 0;
+}
+.container-direction-img{
+    padding: 70px 0 20px 0;
 }
